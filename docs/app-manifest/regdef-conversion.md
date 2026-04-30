@@ -6,6 +6,8 @@
 
 ## Part 1 — registry-config.yaml → regdef.yml (v1)
 
+TODO: Need Python registry
+
 ### Field Mapping
 
 | registry-config.yaml Variable | regdef.yml Field | Notes |

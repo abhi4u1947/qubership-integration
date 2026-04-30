@@ -9,10 +9,11 @@ We need to explore on how to generate this file by during build of entity DD as 
 
 We have two components that can allow us to generate this file:
 
-1. `helm-charts/app-chart` component - QQ: How do we get the value of `valuesPathPrefix` ??
+1. `helm-charts/app-chart` component - QQ: How do we get the value of `valuesPathPrefix` ?? .Values.
 2. `nc-manifests/application-dd` component
 
 ### Reference field processing:
+To genereate the metedata for external artifacts.
 How do we get the value of `reference` field ??
 - for images its full docker url
 - for helm charts its ??
